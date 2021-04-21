@@ -6,8 +6,10 @@ function createMeteors() {
 	const meteor = document.createElement("span");
 	meteor.classList.add("meteor");
 
+	// for making it responsive
+	let add = window.innerHeight < 700 ? 100 : 700;
 	// starting it from right top corner; styling it from left;
-	meteor.style.left = Math.random() * window.innerWidth + 500 + "px";
+	meteor.style.left = Math.random() * window.innerWidth + add + "px";
 
 	// random length of meteor b/w 160 and 160 + 70 = 230
 	meteor.style.height = Math.floor(Math.random() * 160) + 70 + "px";
@@ -22,13 +24,13 @@ function createMeteors() {
 	}, 3000);
 }
 
-// createMeteors() function will run every 500ms;
+// createMeteors() function will run every 6s;
 setInterval(createMeteors, 6000);
 
 // star creation
 function createStars() {
 	let i;
-	let noOfStars = window.innerHeight < 600 ? 20 : 50;
+	let noOfStars = window.innerHeight < 700 ? 20 : 50;
 	for (i = 0; i < noOfStars; ++i) {
 		// creation of stars using --> span.star
 		const star = document.createElement("span");

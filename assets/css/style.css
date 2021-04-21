@@ -96,9 +96,8 @@ header nav {
 header nav .logo {
 	font-size: 24px;
 	max-width: 100px;
-	color: #fff;
-	cursor: pointer;
-	letter-spacing: 4px;
+	color: #cecececc;
+	letter-spacing: 6px;
 	font-style: italic;
 }
 
@@ -128,16 +127,23 @@ header nav .btn-group .btn {
 	font-weight: 200;
 	margin: 2.2em 1em;
 	letter-spacing: 4px;
-	word-spacing: 8px;
+	word-spacing: 5px;
 }
 
 .tagline {
-	color: #cecececc;
+	color: #cececedd;
 	font-size: 1.2em;
-	margin-top: 2.8em;
 	font-weight: 200;
+	margin-top: 2.8em;
 	letter-spacing: 3px;
 	word-spacing: 1px;
+}
+
+.tagline a {
+	text-decoration: none;
+	color: #cececeee;
+	font-size: 1em;
+	font-weight: 400;
 }
 
 .contact {
@@ -145,6 +151,7 @@ header nav .btn-group .btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	align-content: center;
 }
 
 .icon {
@@ -190,3 +197,49 @@ header nav .btn-group .btn {
 	opacity: 1;
 	transition: 0.5s all ease; 
 } */
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+	.logo {
+		size: 0.5em;
+	}
+
+	.contact {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+	}
+
+	.icon {
+		font-size: 1em;
+		margin: 50em 0.5em;
+		padding: 7px 11px;
+	}
+
+	.tagline {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		position: relative;
+	}
+
+	@keyframes shower {
+		from {
+			transform: translateY(-50%);
+			transform: rotate(50deg);
+		}
+		to {
+			transform: translateY(50%);
+			left: 0px;
+			top: 60%;
+			transform: rotate(48deg);
+		}
+	}
+}
+
+/* Helpful for debugging */
+/* * { border: 1px solid red; } */
