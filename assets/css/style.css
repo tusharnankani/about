@@ -96,7 +96,7 @@ header nav {
 header nav .logo {
 	font-size: 24px;
 	max-width: 100px;
-	color: #cecececc;
+	color: #cececeee;
 	letter-spacing: 6px;
 	font-style: italic;
 }
@@ -131,8 +131,8 @@ header nav .btn-group .btn {
 }
 
 .tagline {
-	color: #cececedd;
-	font-size: 1.2em;
+	color: #cecece;
+	font-size: 1.25em;
 	font-weight: 200;
 	margin-top: 2.8em;
 	letter-spacing: 3px;
@@ -141,8 +141,8 @@ header nav .btn-group .btn {
 
 .tagline a {
 	text-decoration: none;
-	color: #cececeee;
-	font-size: 1em;
+	color: #cececeef;
+	font-size: 1.1em;
 	font-weight: 400;
 }
 
