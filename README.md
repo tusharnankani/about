@@ -8,9 +8,9 @@ A minimalisitic responsive portfolio.
 
 - Minimalistic Design
 - Highly Responsive
-- High Accessiblity
+- High Accessibility
 - Best SEO Practices
-- High Perfomance
+- High Performance
 
 ![lighthouse](image/README/lighthouse-report.gif)
 
