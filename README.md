@@ -2,7 +2,7 @@
 
 A minimalisitic responsive portfolio.
 
-![](image/README/demo.png)
+![](image/README/about-demo.)
 
 ## *Author*
 

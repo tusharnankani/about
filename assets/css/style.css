@@ -227,6 +227,11 @@ header nav .btn-group .btn {
 		flex-wrap: wrap;
 		position: relative;
 	}
+	
+	.icon:hover + .hide {
+		display: hidden;
+		opacity: 0; 
+	}
 
 	@keyframes shower {
 		from {
