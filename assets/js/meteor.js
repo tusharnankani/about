@@ -7,7 +7,7 @@ function createMeteors() {
 	meteor.classList.add("meteor");
 
 	// for making it responsive
-	let add = window.innerHeight < 700 ? 100 : 700;
+	let add = window.innerWidth < 700 ? 100 : 700;
 	// starting it from right top corner; styling it from left;
 	meteor.style.left = Math.random() * window.innerWidth + add + "px";
 
@@ -30,7 +30,7 @@ setInterval(createMeteors, 6000);
 // star creation
 function createStars() {
 	let i;
-	let noOfStars = window.innerHeight < 700 ? 20 : 50;
+	let noOfStars = window.innerWidth < 700 ? 15 : 50;
 	for (i = 0; i < noOfStars; ++i) {
 		// creation of stars using --> span.star
 		const star = document.createElement("span");
