@@ -8,11 +8,21 @@ A minimalisitic responsive portfolio.
 
 - Minimalistic Design
 - Highly Responsive
-- High Accessiblity
+- High Accessibility
 - Best SEO Practices
-- High Perfomance
+- High Performance
 
 ![lighthouse](image/README/lighthouse-report.gif)
+
+- View the full **[SpeedLab Report](https://www.browserstack.com/speedlab/report/e8c0f01b64862ece7cd367271b2eaca95a908304)**.
+
+![image](https://user-images.githubusercontent.com/61280281/116779448-fdce4400-aa93-11eb-92c9-b705e6661e56.png)
+
+### *References*
+
+- Source: [web.dev/measure](https://web.dev/measure/)
+- Source: [BrowserStack/SpeedLab](https://www.browserstack.com/speedlab)
+
 
 ## *Author*
 
