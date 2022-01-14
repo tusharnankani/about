@@ -81,7 +81,7 @@ header nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 2rem;
 	z-index: 10;
 
 	/* for sticky navbar */
@@ -101,10 +101,17 @@ header nav .logo {
 	font-style: italic;
 }
 
-.btn {
-	font-size: 18px;
+header nav a {
+	color: #cececeee;
+	font-size: 1.5rem;
 	text-decoration: none;
-	color: #fff;
+	transition: all 0.3s ease-in;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 8px;
 }
 
 header nav .btn-group .btn {
@@ -163,7 +170,7 @@ header nav .btn-group .btn {
 	padding: 9px 15px;
 	border: 1px solid rgba(255, 255, 255, 0.315);
 	border-radius: 100%;
-	transition: 0.s all ease;
+	transition: 0.5s all ease;
 }
 
 .icon:hover {
@@ -171,7 +178,7 @@ header nav .btn-group .btn {
 	background-color: rgba(128, 128, 128, 0.027);
 	filter: blur(1px);
 	-webkit-filter: blur(1px);
-	transition: 0.3s all ease;
+	transition: 0.5s all ease;
 }
 
 .hide {
