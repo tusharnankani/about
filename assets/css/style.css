@@ -19,6 +19,11 @@ header {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
+::selection {
+	background: rgba(224, 226, 238, 0.955);
+	color: rgba(5, 19, 37, 0.932);
+}
+
 .animated-area {
 	position: absolute;
 	width: 100%;
@@ -91,6 +96,8 @@ header nav {
 
 	font-weight: 300;
 	letter-spacing: 1px;
+
+	list-style-type: none;
 }
 
 header nav .logo {
@@ -112,10 +119,6 @@ header nav a:hover {
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
 	text-underline-offset: 8px;
-}
-
-header nav .btn-group .btn {
-	margin-left: 30px;
 	cursor: pointer;
 }
 
@@ -174,7 +177,6 @@ header nav .btn-group .btn {
 }
 
 .icon:hover {
-	/* box-shadow: rgba(255, 255, 255, 0.2) 0 4px 10px; */
 	background-color: rgba(128, 128, 128, 0.027);
 	filter: blur(1px);
 	-webkit-filter: blur(1px);
@@ -183,27 +185,24 @@ header nav .btn-group .btn {
 
 .hide {
 	display: none;
-	opacity: 0;
 }
 
 .desc {
 	position: fixed;
 	margin: 1.2em 0.5em;
-	padding: 1px 5px;
+	padding: 2px 8px;
 	background-color: rgba(27, 27, 27, 0.459);
-	border-radius: 8%;
+	border-radius: 6px;
 	letter-spacing: 1px;
 	color: #cecece93;
 	overflow: hidden;
 	transition: 0.3s all ease;
-	opacity: 1;
 }
 
 .icon:hover + .hide {
 	display: block;
 	overflow: visible;
-	opacity: 1;
-	transition: 0.3s all ease; 
+	transition: 0.3s all ease;
 }
 
 /* responsive */
@@ -234,10 +233,10 @@ header nav .btn-group .btn {
 		flex-wrap: wrap;
 		position: relative;
 	}
-	
+
 	.icon:hover + .hide {
 		display: hidden;
-		opacity: 0; 
+		opacity: 0;
 	}
 
 	@keyframes shower {
@@ -253,6 +252,3 @@ header nav .btn-group .btn {
 		}
 	}
 }
-
-/* Helpful for debugging */
-/* * { border: 1px solid red; } */
