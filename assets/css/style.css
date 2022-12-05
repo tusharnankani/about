@@ -20,7 +20,7 @@ header {
 }
 
 ::selection {
-	background: rgba(224, 226, 238, 0.955);
+	background: rgba(235, 237, 245, 0.90);
 	color: rgba(5, 19, 37, 0.932);
 }
 
@@ -100,26 +100,30 @@ header nav {
 	list-style-type: none;
 }
 
-header nav .logo {
-	font-size: 24px;
-	max-width: 100px;
-	color: #cececeee;
-	letter-spacing: 6px;
-	font-style: italic;
-}
 
 header nav a {
 	color: #cececeee;
 	font-size: 1.5rem;
+	font-weight: 300;
 	text-decoration: none;
 	transition: all 0.3s ease-in;
 }
 
+header nav .logo a {
+	letter-spacing: 6px;
+	font-style: italic;
+}
+
 header nav a:hover {
+	transition: all 0.3s ease-in;
 	text-decoration: underline;
 	text-decoration-thickness: 1px;
 	text-underline-offset: 8px;
 	cursor: pointer;
+}
+
+header nav .logo a:hover {
+	text-decoration: none;
 }
 
 .intro-content {
@@ -149,7 +153,7 @@ header nav a:hover {
 	word-spacing: 1px;
 }
 
-.tagline a {
+a {
 	text-decoration: none;
 	color: #cececeef;
 	font-size: 1.1em;
